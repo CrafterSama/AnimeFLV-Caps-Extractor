@@ -2,6 +2,39 @@
     font-family: sans-serif;
 }
 
+body{
+    background: black;
+}
+
 .centro{
     text-align: center;
+}
+
+form, .divResultado{
+    background: rgb(126, 126, 126);
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+#color{
+    color: white;
+}
+
+form input{
+    width: 80%;
+    padding: 3px 10px;
+    font-size: 18px;
+    border: solid .5px #000;
+    border-radius: 10px;
+}
+
+form button{
+    width: 30%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: solid .5px white;
+    background: #000;
+    color: white;
+    border-radius: 10px;
 }
